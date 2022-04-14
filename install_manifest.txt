@@ -1,0 +1,2 @@
+/Users/mlo/pgquarrel/bin/pgquarrel
+/Users/mlo/pgquarrel/lib/libmini.dylib
