@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/local/include/postgresql/server -I/usr/local/include -I/Users/mlo/git/lite-pgquarrel/mini
+C_INCLUDES = -I/usr/local/include/postgresql@14/server -I/usr/local/include/postgresql@14 -I/Users/mlo/git/lite-pgquarrel/mini
 
 C_FLAGS =  -O0 -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Wendif-labels -fno-strict-aliasing -fwrapv -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
 

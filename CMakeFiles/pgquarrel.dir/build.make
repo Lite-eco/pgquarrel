@@ -588,9 +588,9 @@ pgquarrel: CMakeFiles/pgquarrel.dir/src/type.c.o
 pgquarrel: CMakeFiles/pgquarrel.dir/src/usermapping.c.o
 pgquarrel: CMakeFiles/pgquarrel.dir/src/view.c.o
 pgquarrel: CMakeFiles/pgquarrel.dir/build.make
-pgquarrel: /usr/local/lib/libpgport.a
-pgquarrel: /usr/local/lib/libpgcommon.a
-pgquarrel: /usr/local/lib/libpq.dylib
+pgquarrel: /usr/local/lib/postgresql@14/libpgport.a
+pgquarrel: /usr/local/lib/postgresql@14/libpgcommon.a
+pgquarrel: /usr/local/lib/postgresql@14/libpq.dylib
 pgquarrel: mini/libmini.dylib
 pgquarrel: CMakeFiles/pgquarrel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mlo/git/lite-pgquarrel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable pgquarrel"
